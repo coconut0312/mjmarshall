@@ -1,0 +1,534 @@
+main{
+    width:100%;
+    height:auto;
+}
+
+section.main01{
+    background: -moz-linear-gradient(top,  rgba(89,93,165,1) 30%, rgba(255,128,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    color:none;
+    font-size:9.37rem;
+    padding-top:60px;
+    width:100%;
+    height:94vh;
+    overflow: hidden;
+}
+section.main01 p{
+    opacity:60%;
+    font-weight:500;
+}
+section.main01 p:first-child{
+    margin: 250px 0 0 25%;
+}
+section.main01 p:first-child::after{
+    content:'';
+    display:block;
+    position: absolute;
+    top:42%;
+    right:0;
+    width:30%;
+    border-bottom:solid 1px #fff;
+    opacity:60%;
+}
+section.main01 p:nth-child(2){
+    margin: 4% 0 10% 43%;
+}
+section.main01 p:nth-child(2)::before{
+    content:'';
+    display:block;
+    position: absolute;
+    top:64%;
+    left:0;
+    width:40%;
+    border-bottom:solid 1px #fff;
+    opacity:60%;
+}
+section.main01 img{
+    position: absolute;
+    z-index:1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+section.main02{
+    position:relative;
+    background:#000000;
+    height:auto;
+}
+
+div.title_box{
+    padding-top: 150px;
+    width:62.5%;
+    margin:0 auto;
+}
+h3.section_title{
+    font-weight: 500;
+    font-size:3.12rem;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 1px #FFBD38;
+    margin-bottom: 10px;
+}
+p.section_subtitle{
+    font-size:1.5rem;
+    color:#fff;
+    opacity:80%;
+    margin-bottom:130px;
+}
+div.section_speakers_deco{
+    position:absolute;
+    top:200px;
+    right:5%;
+    width:762px;
+    height:308px;
+    background:url('/public/images/2-col-home-family-both.png') no-repeat;
+}
+ul.speakers{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    color: #fff;
+    font-size:1.12rem;
+    margin-bottom: 100px;
+}
+ul.speakers>li>div{
+    width:25rem;
+    height:25rem;
+    border-radius:10px;
+    background-size:cover;
+    margin-bottom: 25px;
+}
+div.speakers_img1{
+    background-image:url('/public/images/middleton-black-default.jpg');
+}
+div.speakers_img2{
+    position:relative;
+    background-image:url('/public/images/emberton-diamond-jubilee.jpg');
+}
+div.speakers_img2 span{
+    font-weight:500;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    font-size:0.87rem;
+    width:80px;
+    height:80px;
+    border:1px solid black;
+    border-radius:50%;
+    background:black;
+    left:20px;
+    top:20px;
+    position:absolute;
+}
+div.speakers_img2 span i{
+    font-weight: 500;
+}
+div.speakers_img3{
+    background-image:url('/public/images/willen-black-default.jpg');
+}
+div.speakers_img4{
+    background-image:url('/public/images/acton-iii-black-default.jpg');
+}
+
+p.speakers_name{
+    font-weight:500;
+    margin-bottom:20px;
+}
+p.speakers_pay{
+    font-size:0.93rem;
+    font-weight:300;
+}
+div.speakers_discover{
+    width:62.5%;
+    margin:0 auto;
+}
+ul.speakers_discover_box{
+    display:flex;
+    justify-content: space-between;
+}
+div.speakers_discover_img1{
+    width:34.68rem;
+    height:25.12rem;
+    background-image:url('/public/images/2-col-home-family-both_2.png');
+    margin-bottom:40px;
+    background-size:cover;
+}
+div.speakers_discover_img2{
+    width:34.68rem;
+    height:25.12rem;
+    background-image:url('/public/images/Middleton_Category-page_2-column-banner_desktop_2.png');
+    margin-bottom:40px;
+    background-size:cover;
+}
+ul.speakers_discover_box li{
+    text-align: center;
+}
+ul.speakers_discover_box h2{
+    color:#FFBD38;
+    font-size:2.12rem;
+    font-weight:500;
+    margin-bottom:40px;
+}
+ul.speakers_discover_box button{
+    width:200px;
+    height:70px;
+    border:solid 1px #fff;
+    background: none;
+    border-radius: 10px;
+    margin-bottom:150px;
+    color:#fff;
+    opacity:60%;
+}
+
+div.speakers_visual{
+    background-attachment: fixed;
+    width:100%;
+    height:37.5rem;
+    background-image:url('/public/images/hero-all-speakers-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:#ffff;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+h3.all_product{
+    font-size:3.12rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+div.speakers_visual p{
+    font-size:1.87rem;
+}
+
+section.main03{
+    position:relative;
+    width:100%;
+    height:auto;
+    background: -moz-linear-gradient(top,  rgba(89,93,165,1) 0%, rgba(255,128,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+div.title_box{
+    padding-top: 250px;
+    width:62.5%;
+    margin:0 auto;
+}
+
+div.section_headphones_deco{
+    position:absolute;
+    top:100px;
+    right:10%;
+    width:400px;
+    height:448px;
+    background:url('/public/images/all-02b-on-ear1.png') no-repeat;
+}
+ul.headphones{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    color: #fff;
+    font-size:1.12rem;
+    margin-bottom: 100px;
+}
+ul.headphones>li>div{
+    width:25rem;
+    height:25rem;
+    border-radius:10px;
+    background-size:cover;
+    margin-bottom: 25px;
+}
+div.headphones_img1{
+    background-image:url('/public/images/hp-carousel-monitor-ii-anc.jpg');
+}
+div.headphones_img2{
+    position:relative;
+    background-image:url('/public/images/monitor-ii-anc-diamond-jubilee.jpg');
+}
+div.headphones_img2 span{
+    font-weight:500;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    font-size:0.87rem;
+    width:80px;
+    height:80px;
+    border:1px solid black;
+    border-radius:50%;
+    background:black;
+    left:20px;
+    top:20px;
+    position:absolute;
+}
+div.headphones_img2 span i{
+    font-weight: 500;
+}
+div.headphones_img3{
+    position:relative;
+    background-image:url('/public/images/motif-anc-diamond-jubilee.jpg');
+}
+div.headphones_img3 span{
+    font-weight:500;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    font-size:0.87rem;
+    width:80px;
+    height:80px;
+    border:1px solid black;
+    border-radius:50%;
+    background:black;
+    left:20px;
+    top:20px;
+    position:absolute;
+}
+div.headphones_img3 span i{
+    font-weight: 500;
+}
+div.headphones_img4{
+    background-image:url('/public/images/hp-carousel-minor-iii.jpg');
+}
+
+p.headphones_name{
+    font-weight:500;
+    margin-bottom:20px;
+}
+p.headphones_pay{
+    font-size:0.93rem;
+    font-weight:300;
+}
+div.headphones_discover{
+    width:62.5%;
+    margin:0 auto;
+}
+ul.headphones_discover_box{
+    display:flex;
+    justify-content: space-between;
+}
+div.headphones_discover_img1{
+    width:23.56rem;
+    height:25.12rem;
+    background-image:url('/public/images/all-02a-in-ear.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:40px;
+}
+div.headphones_discover_img2{
+    width:23.56rem;
+    height:25.12rem;
+    background-image:url('/public/images/all-02b-on-ear.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:40px;
+}
+div.headphones_discover_img3{
+    width:23.56rem;
+    height:25.12rem;
+    background-image:url('/public/images/all-02b-over-ear.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-bottom:40px;
+}
+ul.headphones_discover_box li{
+    text-align: center;
+}
+ul.headphones_discover_box h2{
+    color:#FFBD38;
+    font-size:1.87rem;
+    font-weight:500;
+    margin-bottom:40px;
+}
+ul.headphones_discover_box button{
+    width:200px;
+    height:70px;
+    border:solid 1px #fff;
+    background: none;
+    border-radius: 10px;
+    margin-bottom:150px;
+    color:#fff;
+    opacity:60%;
+}
+
+div.headphones_visual{
+    background-attachment:fixed;
+    width:100%;
+    height:37.5rem;
+    background-image:url('/public/images/hp-reactivation-hero-headphones-desktop.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:#ffff;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+h3.all_product{
+    font-size:3.12rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+div.headphones_visual p{
+    font-size:1.87rem;
+}
+section.main04{
+    width:100%;
+    height:130vh;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    padding-top: 200px;
+}
+div.living_with_pride{
+    position:relative;
+    width:62.5%;
+    height:auto;
+}
+div.living_img{
+    background:url('/public/images/1-col-esktop.jpg')no-repeat center;
+    width:50rem;
+    height:70.25rem;
+    position:absolute;
+    top:0;
+    right:0;
+}
+div.living_text_box{
+    position: absolute;
+    z-index: 1;
+    top:20%;
+}
+p.living_text_title{
+    font-size:6.25rem;
+    font-weight: 500;
+    color:#FFBD38;
+    margin-bottom:60px;
+    text-shadow:4px 4px 4px rgba(0,0,0,0.25);
+}
+p.living_text{
+    width:657px;
+    font-size:1.5rem;
+    line-height:34px;
+    color:#fff;
+    opacity:80%;
+    margin-bottom: 60px;
+}
+div.living_text_box button{
+    width:200px;
+    height:70px;
+    border:solid 1px #fff;
+    background: none;
+    border-radius: 10px;
+    margin-bottom:150px;
+    color:#fff;
+    opacity:60%;
+}
+section.main05{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:700px;
+    background: -moz-linear-gradient(top,  rgba(89,93,165,1) 0%, rgba(255,128,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+div.sign_up{
+    width:1200px;
+    height: 440px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+}
+div.sign_up_text_box{
+    padding: 80px 0 2ch 100px;
+    width: 78.33%;
+    height:auto;
+}
+p.sign_up_title{
+    font-size:40px;
+    color:#FFD47E;
+    font-weight:500;
+    padding-bottom:30px;
+}
+p.sign_up_text{
+    font-size:1.5rem;
+    color:white;
+    opacity:80%;
+    padding-bottom:50px;
+}
+input.newsletter_form_email{
+    width:588px;
+    height:40px;
+    border:solid 1px #fff;
+    border-radius:10px;
+    text-align:center;
+    background:none;
+    font-family: 'Poppins';
+    margin-right:10px;
+}
+button.sign_up_email_btn{
+    width:100px;
+    height:44px;
+    border:solid 1px #fff;
+    border-radius:10px;
+    background:none;
+    color: white;
+    font-family: 'Poppins';
+}
+div.privacy_policy{
+    padding:0 0 0 100px;
+    color: white;
+    font-size:1.12rem;
+    opacity:80%;
+}
+p.privacy_policy_text{
+    padding-bottom:5px;
+}
+div.privacy_policy a{
+    color:white;
+    text-decoration: underline;
+}
+
+@media (max-width:1919px) {
+    section.main01 p:first-child::after{
+        display:none;
+    }
+    div.section_speakers_deco{
+        display:none;
+    }
+    div.section_headphones_deco{
+        display:none;
+    }
+
+}
+@media (max-width:1630px) {
+    html{
+        font-size:80%;
+    }
+}
+@media (max-width:1500px){
+    section.main01 p:nth-child(2)::before{
+        display:none;
+    }
+}
+@media (max-width:1280px){
+  
+    html{
+        font-size:66%;
+    }
+
+}

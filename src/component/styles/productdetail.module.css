@@ -1,0 +1,122 @@
+section.productdetail{
+    background: -moz-linear-gradient(top,  rgba(89,93,165,1) 30%, rgba(255,128,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding-top:60px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+div.productdetail_box{
+    margin:50px 0 100px 0;
+    display:flex;
+    width:62.5%;
+    height:800px;
+    align-items:center;
+    color: white;
+}
+div.productdetail_img{
+    position:relative;
+}
+div.productdetail_img button:nth-child(1){
+    left:30px;
+}
+div.productdetail_img button:last-child{
+    right:30px;
+}
+div.productdetail_img img{
+    width:100%;
+}
+p.productdetail_name{
+    font-size:40px;
+    font-weight:600;
+    padding-bottom:20px;
+}
+ul.selectcolor{
+    width:30%;
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom:100px;
+}
+ul.selectcolor li{
+    height:30px;
+}
+ul.selectcolor>li>button{
+    width:30px;
+    height:30px;
+    border: none;
+    cursor: pointer;
+    text-indent: -99999px;
+    box-sizing: border-box;
+    border-radius:50%;
+    position:relative;
+}
+ul.selectcolor li:nth-child(1) button{
+    background:black;
+}
+ul.selectcolor li:nth-child(1) button::after{
+    content:'';
+    border:solid 1px rgba(255,255,255,0.5);
+    border-radius:50%;
+    position: absolute;
+    width: 2.8rem;
+    height: 2.8rem;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+ul.selectcolor li:nth-child(2) button{
+    background:#E8E0D5;
+}
+ul.selectcolor li:nth-child(3) button{
+    background:#824820;
+}
+
+div.productdetail_text_box{
+    width:100%;
+    text-align:justify;
+}
+ul.productdetail_button{
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+}
+ul.productdetail_button li button{
+    font-family:'Poppins', sans-serif;
+    font-size:1rem;
+    background:none;
+    color:white;
+    border:solid 1px rgba(255,255,255,0.5);
+}
+ul.productdetail_button li:nth-child(1) button{
+    width:60px;
+    height:100%;
+    font-size:20px;
+}
+ul.productdetail_button li:nth-child(2) button{
+    width:210px;
+    height: 100%;
+}
+ul.productdetail_button li:nth-child(3) button{
+    width:210px;
+    height:100%;
+}
+p.productdetail_text{
+    line-height:20px;
+    padding-bottom:50px;
+    opacity:80%;
+}
+p.productdetail_price{
+    font-weight:400;
+    font-size:24px;
+    padding-bottom:50px;
+}
+p.productdetail_price::after{
+    content:'';
+    width:100%;
+    display:block;
+    margin-top:20px;
+    border-bottom:solid 1px rgba(255,255,255,0.2);
+}

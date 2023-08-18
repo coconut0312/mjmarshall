@@ -1,0 +1,51 @@
+header{
+    margin: 0 auto;
+    width:100%;
+    height:60px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    position:fixed;
+    font-size:18px;
+    font-weight:600;
+    z-index:9999;
+}
+nav.mainmenu{
+    border-bottom:solid 1px rgba(255,255,255,0.5);
+    margin:0 auto;
+    width:83.33%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav.mainmenu a{
+    color:white;
+}
+ul.menu_list{
+    width:600px;
+    display:flex;
+    justify-content:space-around;
+}
+h1.logo{
+    padding-top:30px;
+    width:87px;
+    height:100%;
+}
+ul.servies_menu{
+    display:flex;
+    justify-content:space-around;
+    width:300px;
+    font-size:20px;
+    color: white;
+    cursor:pointer;
+}
+
+ul.servies_menu li:last-child{
+    display:flex;
+    align-items:center;
+    font-size:18px;
+}   
+ul.servies_menu li:last-child i{
+    padding-left:10px;
+}
