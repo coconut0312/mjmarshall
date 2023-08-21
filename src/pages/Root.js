@@ -6,12 +6,12 @@ import MainWrap from './MainWrap'
 
 export default function Root() {
   return (
-    <div>
+    <>
         <Header/>
         <MainWrap>
         <Outlet/>
         </MainWrap>
         <Footer/>
-    </div>
+    </>
   )
 }
