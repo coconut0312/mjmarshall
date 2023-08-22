@@ -1,7 +1,18 @@
 import React from 'react'
+import MobileMainvisual from '../component/MobileMainvisual'
+import MobileDiscovers from '../component/MobileDiscovers'
+import MobileDiscoverh from '../component/MobileDiscoverh'
+import MobileLiving from '../component/MobileLiving'
+import MobileSignup from '../component/MobileSignup'
 
-export default function MobileHome() {
+export default function MobileMain() {
   return (
-    <div>MobileHome</div>
+    <main>
+      <MobileMainvisual/>
+      <MobileDiscovers/>
+      <MobileDiscoverh/>
+      <MobileLiving/>
+      <MobileSignup/>
+    </main>
   )
 }

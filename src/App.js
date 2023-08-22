@@ -1,13 +1,18 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Main from "./pages/Main";
-import Headphones from "./pages/Headphones";
-import Speakers from "./pages/Speakers";
-import Root from "./pages/Root";
-import NotFound from "./pages/NotFound";
-import Productdetail from "./pages/Productdetail";
 import { AuthContextProvider } from "./context/AuthContext";
 import { isMobile } from "react-device-detect";
+import Main from "./pages/Main";
 import MobileMain from "./pages/MobileMain";
+import Headphones from "./pages/Headphones";
+import MobileHeadphones from "./pages/MobileHeadphones";
+import Speakers from "./pages/Speakers";
+import MobileSpeakers from "./pages/MobileSpeakers";
+import Root from "./pages/Root";
+import MobileRoot from "./pages/MobileRoot";
+import Productdetail from "./pages/Productdetail";
+import MobileProductdetail from "./pages/MobileProductdetail";
+import NotFound from "./pages/NotFound";
+
 
 function App(){ 
   let router=null;
