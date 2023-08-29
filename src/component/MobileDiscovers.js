@@ -18,7 +18,7 @@ export default function Discoverspeakers() {
             </li>
           <li>
           <div className={styles.speakers_img2}>
-            <span>LIMITED<i>EDITION</i></span>
+            <span className={styles.limited}>LIMITED<i>EDITION</i></span>
           </div>
             <p className={styles.speakers_name}>EMBERTON<br/>DIAMOND JUBILEE</p>
             <p className={styles.speakers_pay}>$179.99</p>
