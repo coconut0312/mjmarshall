@@ -61,7 +61,7 @@ const menuClose = useCallback(() => {
             }
           </ul>
 
-        <nav id={styles.mobilemenu}>
+        <nav id={styles.mobilemenu} ref={menuWrap}>
           <span id={styles.mobileclose_btn} ref={closeBtn} onClick={menuClose}><IoClose/></span>
           <div id={styles.mobilemenu_inner}>
             <p>HELLO</p>
