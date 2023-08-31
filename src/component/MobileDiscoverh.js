@@ -19,7 +19,7 @@ export default function Discoverheadphones() {
       </li>
     <li>
     <div className={styles.headphones_img2}>
-    <span>LIMITED<i>EDITION</i></span>
+    <span className={styles.limited}>LIMITED<i>EDITION</i></span>
     </div>
       <p className={styles.headphones_name}>EMBERTON<br/>DIAMOND JUBILEE</p>
       <p className={styles.headphones_pay}>$179.99</p>

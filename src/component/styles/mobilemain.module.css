@@ -33,7 +33,6 @@ section.main02{
     background:#000000;
     height:auto;
 }
-
 div.title_box{
     padding-top: 100px;
     width:80%;
@@ -179,19 +178,16 @@ section.main03{
     background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(89,93,165,1) 0%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-div.title_box{
-    padding-top: 150px;
-    width:80%;
-    margin:0 auto;
-}
 
 ul.headphones{
     display:flex;
-    justify-content:space-around;
     text-align:center;
     color: #fff;
     font-size:1.12rem;
-    margin-bottom: 100px;
+    overflow: hidden;
+}
+ul.headphones>li{
+    margin-right:50px;
 }
 ul.headphones>li>div{
     width:25rem;
@@ -207,68 +203,31 @@ div.headphones_img2{
     position:relative;
     background-image:url('/public/images/monitor-ii-anc-diamond-jubilee.jpg');
 }
-div.headphones_img2 span{
-    font-weight:500;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    font-size:0.87rem;
-    width:80px;
-    height:80px;
-    border:1px solid black;
-    border-radius:50%;
-    background:black;
-    left:20px;
-    top:20px;
-    position:absolute;
-}
-div.headphones_img2 span i{
-    font-weight: 500;
-}
 div.headphones_img3{
     position:relative;
     background-image:url('/public/images/motif-anc-diamond-jubilee.jpg');
 }
-div.headphones_img3 span{
-    font-weight:500;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    font-size:0.87rem;
-    width:80px;
-    height:80px;
-    border:1px solid black;
-    border-radius:50%;
-    background:black;
-    left:20px;
-    top:20px;
-    position:absolute;
-}
-div.headphones_img3 span i{
-    font-weight: 500;
-}
+
 div.headphones_img4{
     background-image:url('/public/images/hp-carousel-minor-iii.jpg');
 }
 
 p.headphones_name{
+    font-size:1.5rem;
     font-weight:500;
     margin-bottom:20px;
 }
 p.headphones_pay{
-    font-size:0.93rem;
+    font-size:1.2rem;
     font-weight:300;
 }
-div.headphones_discover{
-    width:62.5%;
+ul.headphones_discover_box{
+    margin:0 auto 80px;
+}
+ul.headphones_discover_box div{
     margin:0 auto;
 }
-ul.headphones_discover_box{
-    display:flex;
-    justify-content: space-between;
-}
+
 div.headphones_discover_img1{
     width:23.56rem;
     height:25.12rem;
@@ -276,7 +235,6 @@ div.headphones_discover_img1{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom:40px;
 }
 div.headphones_discover_img2{
     width:23.56rem;
@@ -285,7 +243,6 @@ div.headphones_discover_img2{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom:40px;
 }
 div.headphones_discover_img3{
     width:23.56rem;
@@ -295,7 +252,6 @@ div.headphones_discover_img3{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: cover;
-    margin-bottom:40px;
 }
 ul.headphones_discover_box li{
     text-align: center;
@@ -312,7 +268,6 @@ ul.headphones_discover_box button{
     border:solid 1px #fff;
     background: none;
     border-radius: 10px;
-    margin-bottom:150px;
     color:#fff;
     opacity:60%;
 }
@@ -339,4 +294,55 @@ h3.all_product{
 }
 div.headphones_visual p{
     font-size:1.87rem;
+}
+section.main04{
+    width:100%;
+    height:110vh;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    padding-top:110px;
+}
+div.living_with_pride{
+    position:relative;
+    width:90vw;
+    height:auto;
+}
+div.living_img{
+    background:url('/public/images/1-col-esktop.jpg')no-repeat center;
+    width:37rem;
+    height:70.25rem;
+    position:absolute;
+    top:0;
+    right:0;
+    background-size: cover;
+}
+div.living_text_box{
+    position: absolute;
+    z-index: 1;
+    top:20%;
+}
+p.living_text_title{
+    font-size:4.25rem;
+    font-weight: 500;
+    color:#FFBD38;
+    margin-bottom:30px;
+    text-shadow:4px 4px 4px rgba(0,0,0,0.25);
+}
+p.living_text{
+    font-size:1.5rem;
+    line-height:24px;
+    color:#fff;
+    opacity:80%;
+    margin-bottom: 60px;
+}
+div.living_text_box button{
+    width:200px;
+    height:70px;
+    border:solid 1px #fff;
+    background: none;
+    border-radius: 10px;
+    margin-bottom:150px;
+    color:#fff;
+    opacity:60%;
 }
