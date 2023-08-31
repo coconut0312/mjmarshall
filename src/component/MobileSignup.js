@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles/main.module.css'
+import styles from './styles/mobilemain.module.css'
 
 export default function MobileSignup() {
   return (
