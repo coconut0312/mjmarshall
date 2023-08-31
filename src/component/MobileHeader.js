@@ -10,8 +10,8 @@ import { gsap } from 'gsap';
 
 export default function MobileHeader(){
   const mainMenus=[
-    {index:0,path:'/speakers',text:'SPEAKERS', subMenuList:[]},
-    {index:1,path:'/headphones',text:'HEADPHONES', subMenuList:[]},
+    {index:0,path:'/mobilespeakers',text:'SPEAKERS', subMenuList:[]},
+    {index:1,path:'/mobileheadphones',text:'HEADPHONES', subMenuList:[]},
     {index:2,path:'#',text:'60 YEARS OF LOUD', subMenuList:[]}
   ]
   const { user } = useAuthContext();
@@ -73,7 +73,7 @@ const menuClose = useCallback(() => {
           <ul id={styles.mobilemenu_list}>        
                             {
                                 mainMenus.map((item)=>(
-                                    <li key={item.index}><Link to={itme.path}>{item.text}</Link></li>
+                                    <li key={item.index}><Link to={item.path}>{item.text}</Link></li>
                                             
                                 ))
                             }                    

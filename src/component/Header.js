@@ -23,8 +23,8 @@ export default function Header() {
           <h1 className={styles.logo}><a href='/'><img src='/images/marshall_logo_white.svg' alt="마샬"/></a></h1>
           <ul className={styles.menu_list}>
           {
-                    mainMenus.map((itme)=>(
-                        <li key={itme.index}><Link to={itme.path}>{itme.text}</Link></li>
+                    mainMenus.map((item)=>(
+                        <li key={item.index}><Link to={item.path}>{item.text}</Link></li>
                     ))
                 }
           </ul>
