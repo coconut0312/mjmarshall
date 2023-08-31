@@ -73,7 +73,7 @@ const menuClose = useCallback(() => {
           <ul id={styles.mobilemenu_list}>        
                             {
                                 mainMenus.map((item)=>(
-                                    <li key={item.index}>{item.text}</li>
+                                    <li key={item.index}><Link to={itme.path}>{item.text}</Link></li>
                                             
                                 ))
                             }                    
