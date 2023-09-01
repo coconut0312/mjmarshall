@@ -115,7 +115,7 @@
             "name":"STOCKWELL II",
             "text":"Weighing only 3 lbs, Stockwell II packs a solid punch despite its pint-sized frame. Utilising Blumlein Stereo Sound construction, this speaker provides a multi-directional experience that will immerse you in your music, indoors or out.",
             "price":219.99,
-            "colors": []
+            "colors": ["black and brass"]
         },
         "014":{
             "id":"014", 
@@ -142,7 +142,7 @@
             "name":"EMBERTON",
             "text":"Emberton is a compact portable speaker with the loud and vibrant sound only Marshall can deliver. Emberton utilises True Stereophonic, a unique form of multi-directional sound from Marshall. Experience absolute 360° sound where every spot is a sweet spot. Emberton combines signature Marshall sound with IPX7 water-resistance and 20+ hours of portable playtime, making it ideal to take with you.",
             "price":179.99,
-            "colors":[]
+            "colors":["black"]
     }
 }
 }
