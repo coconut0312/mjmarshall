@@ -66,12 +66,6 @@ ul.selectcolor li:nth-child(1) button::after{
     transform: translate(-50%,-50%);
 }
 
-ul.selectcolor li:nth-child(2) button{
-    background:#E8E0D5;
-}
-ul.selectcolor li:nth-child(3) button{
-    background:#824820;
-}
 
 div.productdetail_text_box{
     width:100%;

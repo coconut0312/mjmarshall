@@ -175,7 +175,6 @@ export default function Speakerslist() {
     {
       (isAllCategory || isLimitedCategory) && 
       (
-        // 하나의 section만 만드는 거면 map으로 안 돌려도 될 것 같다.
         // categoryItems.filter((item) => item.category === 'LIMITED EDITION').map((item) => (
           <Link to={`/speakers/${categoryItems.id}`}>
             <section className={styles.limited_edition}>
