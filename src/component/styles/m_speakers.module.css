@@ -10,20 +10,19 @@ section.speakers_title{
 }
 section.speakers_title p{
     margin:0 auto;
-    width:62.5%;
+    width:90%;
     font-size:24px;
     color:white;
 }
 section.speakers_product{
     position:relative;
-    width:62.5%;
+    width:90%;
     height:auto;
     margin:0 auto;
     margin-bottom:90px;
 }
 ul.speakers_product_all_list{
     font-size:16px;
-    width:420px;
     display:flex;
     justify-content:space-between;
     margin:50px 0;
@@ -76,8 +75,8 @@ ul.speakers_product_list li{
     text-align:center;
     font-size:18px;
     position:relative;
-    width:32%;
-    height:500px;
+    width:100%;
+    height:400px;
     background:#C5C5C5;
     border-radius:10px;
 }
@@ -212,7 +211,7 @@ ul.speakers_product_home_list li:nth-child(8)>ul.product_color li:nth-child(2) b
     background:white;
 } */
 div.product_text_box{
-    padding-top:365px;
+    padding-top:300px;
 }
 div.speakers_promo{
     display:flex;
@@ -295,37 +294,3 @@ div.limited_edition_text p{
     font-size:30px;
     padding-top: 20px;
 }
-/* @media (max-width:1919px) {
-
-}
-@media (max-width:1630px) {
-    html{
-        font-size:80%;
-    }
-    ul.speakers_product_home_list li{
-        width:49%;
-    }
-    ul.speakers_product_portable_list li{
-        width:49%;
-    }
-
-}
-
-@media (max-width:1280px){
-    html{
-        font-size:66%;
-    }
-    section.speakers_product{
-        width:80%;
-    }
-}
-@media (max-width:1240px){
-}
-@media (max-width:860px){
-    ul.speakers_product_home_list li{
-        width:48%;
-    }
-    ul.speakers_product_portable_list li{
-        width:48%;
-    }
-} */
