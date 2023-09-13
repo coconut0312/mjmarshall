@@ -11,8 +11,8 @@ import { gsap } from 'gsap';
 
 export default function MobileHeader(){
   const mainMenus=[
-    {index:0,path:'/mobilespeakers',text:'SPEAKERS'},
-    {index:1,path:'/mobileheadphones',text:'HEADPHONES'},
+    {index:0,path:'/speakers',text:'SPEAKERS'},
+    {index:1,path:'/headphones',text:'HEADPHONES'},
     {index:2,path:'#',text:'60 YEARS OF LOUD'}
   ]
   const { user } = useAuthContext();

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import styles from './styles/speakers.module.css'
+import styles from './styles/m_speakers.module.css'
 import { Link, useNavigate } from 'react-router-dom'
 import useProducts from '../hooks/useProducts'
 
@@ -11,7 +11,7 @@ export default function Speakerslist() {
     {index:2, text:'PORTABLE'},
     {index:3, text:'LIMITED EDITION'},
   ]
-  const [selectCategory,setSelectCategory]=useState('ALL')//선택한 카테고리 이름을 저장.
+  const [selectCategory,setSelectCategory]=useState('ALL')
   const [categoryItems,setCategoryItems] =useState([]);
   
   useEffect(()=>{
@@ -24,7 +24,6 @@ export default function Speakerslist() {
   },[selectCategory, allProducts])
   
   const navigate=useNavigate()
-  // 아래 변수에 일관성 보완: isAllCategory, isHomeCategory 추가 삽입
   const isAllCategory = selectCategory === 'ALL';
   const isHomeCategory = selectCategory === 'HOME';
   const isPortableCategory = selectCategory === 'PORTABLE';
@@ -61,7 +60,6 @@ export default function Speakerslist() {
     
 
 
-    {/* 변경 시작 */}
 
       <ul className={styles.speakers_product_list}>
       {
@@ -100,7 +98,6 @@ export default function Speakerslist() {
       }
       </ul>
 
-      {/* 변경 끝 */}
 
 {/* 
       <ul className={styles.speakers_product_home_list}>

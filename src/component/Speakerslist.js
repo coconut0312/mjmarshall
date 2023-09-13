@@ -158,7 +158,6 @@ export default function Speakerslist() {
 */}
 
     </section>      
-{/* 변경 시작 */}
 
     {
       isPortableCategory && 
@@ -192,7 +191,6 @@ export default function Speakerslist() {
       )
     } 
 
-{/* 변경 끝 */}
 
 
     {/* {

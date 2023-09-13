@@ -52,7 +52,7 @@ ul.speakers_product_all_list li{
 .selectedCategory::before{
     content: '';
     position: absolute;
-    bottom:-10px; /* Adjust this value to move the underline up or down */
+    bottom:-10px;
     left: 0;
     width: 100%;
     border-bottom: solid 3px black;

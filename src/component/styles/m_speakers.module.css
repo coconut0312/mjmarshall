@@ -1,0 +1,331 @@
+section.speakers_title{
+    width:100%;
+    height:300px;
+    background: -moz-linear-gradient(top,  rgba(89,93,165,1) 30%, rgba(255,128,87,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(89,93,165,1) 30%,rgba(255,128,87,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    display:flex;
+    align-items:center;
+    padding-top:30px;
+}
+section.speakers_title p{
+    margin:0 auto;
+    width:62.5%;
+    font-size:24px;
+    color:white;
+}
+section.speakers_product{
+    position:relative;
+    width:62.5%;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:90px;
+}
+ul.speakers_product_all_list{
+    font-size:16px;
+    width:420px;
+    display:flex;
+    justify-content:space-between;
+    margin:50px 0;
+}
+ul.speakers_product_all_list::after{
+    content:'';
+    position: absolute;
+    top:25px;
+    left:0;
+    display:block;
+    width:100%;
+    border-bottom:solid 1px #000;
+    opacity:20%;
+}
+div.speakers_product_box p{
+    font-size:20px;
+}
+
+ul.speakers_product_all_list li{
+    font-weight:400;
+}
+.selectedCategory {
+    display: inline-block;
+    position: relative;
+}
+.selectedCategory::before{
+    content: '';
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 3px black;
+}
+  
+li.selected{
+    opacity:100%;
+    padding-bottom:6px;
+    border-bottom:solid 4px #000;
+}
+
+/* 추가 */
+ul.speakers_product_list{
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:1em;
+}
+ul.speakers_product_list li{
+    text-align:center;
+    font-size:18px;
+    position:relative;
+    width:32%;
+    height:500px;
+    background:#C5C5C5;
+    border-radius:10px;
+}
+ul.speakers_product_list li img{
+    position:absolute;
+    width:70%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -80%);
+}
+/* 추가 끝 */
+
+
+/* ul.speakers_product_home_list{
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:1em;
+}
+ul.speakers_product_portable_list{
+    margin-top:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:1em;
+}
+ul.speakers_product_home_list li{
+    text-align:center;
+    font-size:18px;
+    position:relative;
+    width:32%;
+    height:500px;
+    background:#C5C5C5;
+    border-radius:10px;
+}
+ul.speakers_product_portable_list li{
+    text-align:center;
+    font-size:18px;
+    position:relative;
+    width:32%;
+    height:500px;
+    background:#C5C5C5;
+    border-radius:10px;
+} */
+div.product_text_box span{
+    font-weight:500;
+    white-space: pre-wrap;
+}
+div.product_text_box p{
+    font-size:15px;
+    margin-top:15px;
+}
+/* ul.speakers_product_home_list li img{
+    position:absolute;
+    width:70%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -80%);
+}
+ul.speakers_product_portable_list li img{
+    position:absolute;
+    width:70%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -80%);
+} */
+ul.product_color{
+    width:20%;
+    position:absolute;
+    top:65%;
+    left:40%;
+    display:flex;
+    justify-content: center;
+}
+ul.product_color li{
+    height:15px;
+}
+ul.product_color button{
+    width:15px;
+    height:15px;
+    border: none;
+    cursor: pointer;
+    text-indent: -99999px;
+    box-sizing: border-box;
+    border-radius:50%;
+}
+.blackButton {
+    background: black;
+}
+.whiteButton {
+    background: white;
+}
+.creamButton{
+    background:#E8E0D5;
+}
+.brownButton {
+    background: #824820;
+}
+.portableButton {
+    background: linear-gradient(90deg, #000000, #000000 50%, #b9935e 50%);
+}
+.defaultButton {
+    background: linear-gradient(90deg, #000000, #000000 50%, #b9935e 50%);
+}
+.greenButton {
+    background: #445544;
+}
+    /* You can add more specific styles here */
+/* ul.product_color li:nth-child(1) button{
+    background:black;
+}
+ul.product_color li:nth-child(2) button{
+    background:#E8E0D5;
+}
+ul.product_color li:nth-child(3) button{
+    background:#824820;
+} */
+/* ul.speakers_product_home_list li:nth-child(4)>ul.product_color li:nth-child(2) button{
+    background:white;
+}
+ul.speakers_product_home_list li:nth-child(5)>ul.product_color li:nth-child(2) button{
+    background:white;
+}
+ul.speakers_product_home_list li:nth-child(6)>ul.product_color li:nth-child(2) button{
+    background:white;
+}
+ul.speakers_product_home_list li:nth-child(7)>ul.product_color li:nth-child(2) button{
+    background:white;
+}
+ul.speakers_product_home_list li:nth-child(8)>ul.product_color li:nth-child(2) button{
+    background:white;
+} */
+div.product_text_box{
+    padding-top:365px;
+}
+div.speakers_promo{
+    display:flex;
+    justify-content:center;
+    margin-bottom:80px;
+    position:relative;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    width:100%;
+    height:700px;
+    background-image:url('/public/images/Middleton_Category-page_Full-width-banner_desktop.jpg');
+}
+div.speakers_promo p{
+    font-size:3rem;
+    font-weight:500;
+    position:absolute;
+    top:40%;
+}
+div.speakers_promo span{
+    font-size:1.5rem;
+    position:absolute;
+    top:50%;
+}
+/* ul.speakers_product_portable_list>li>ul.product_color li:nth-child(1) button{
+    background:#E8E0D5;
+}
+ul.speakers_product_portable_list>li>ul.product_color li:nth-child(2) button{
+    background:linear-gradient(90deg, #000000, #000000 50%, #b9935e 50% );
+}
+ul.speakers_product_portable_list li:nth-child(4)>ul.product_color li:nth-child(1) button{
+    background:black;
+}
+ul.speakers_product_portable_list li:nth-child(4)>ul.product_color li:nth-child(2) button{
+    background:#445544;
+}
+ul.speakers_product_portable_list li:nth-child(6)>ul.product_color li:nth-child(1) button{
+    background:black;
+} */
+section.limited_edition{
+    display:flex;
+    justify-content:center;
+    background:#484848;
+    width:100%;
+    height:600px;
+}
+div.limited_edition_img{
+    position:relative;
+}
+div.limited_edition_img span{
+    font-weight:300;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:80px;
+    height:80px;
+    border:1px solid black;
+    border-radius:50%;
+    background:black;
+    position:absolute;
+    left:0;
+    top:80px;
+}
+div.limited_edition_box{
+    display:flex;
+    align-items:center;
+    color:white;
+}
+div.limited_edition_text span{
+    font-size:40px;
+    font-weight:500;
+}
+div.limited_edition_img img{
+    height:400px;
+}
+div.limited_edition_text p{
+    font-size:30px;
+    padding-top: 20px;
+}
+/* @media (max-width:1919px) {
+
+}
+@media (max-width:1630px) {
+    html{
+        font-size:80%;
+    }
+    ul.speakers_product_home_list li{
+        width:49%;
+    }
+    ul.speakers_product_portable_list li{
+        width:49%;
+    }
+
+}
+
+@media (max-width:1280px){
+    html{
+        font-size:66%;
+    }
+    section.speakers_product{
+        width:80%;
+    }
+}
+@media (max-width:1240px){
+}
+@media (max-width:860px){
+    ul.speakers_product_home_list li{
+        width:48%;
+    }
+    ul.speakers_product_portable_list li{
+        width:48%;
+    }
+} */
