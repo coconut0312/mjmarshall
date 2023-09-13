@@ -3,16 +3,17 @@ import { Link } from 'react-router-dom';
 import styles from './styles/mobileheader.module.css';
 import { login, logout, onUserStateChange } from '../api/firebase'
 import { useAuthContext} from '../context/AuthContext'
-import { BsFillPersonFill } from 'react-icons/bs'
+import { GoPerson } from 'react-icons/go'
+import { GoPersonFill } from 'react-icons/go'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { IoClose } from 'react-icons/io5'
 import { gsap } from 'gsap';
 
 export default function MobileHeader(){
   const mainMenus=[
-    {index:0,path:'/mobilespeakers',text:'SPEAKERS', subMenuList:[]},
-    {index:1,path:'/mobileheadphones',text:'HEADPHONES', subMenuList:[]},
-    {index:2,path:'#',text:'60 YEARS OF LOUD', subMenuList:[]}
+    {index:0,path:'/mobilespeakers',text:'SPEAKERS'},
+    {index:1,path:'/mobileheadphones',text:'HEADPHONES'},
+    {index:2,path:'#',text:'60 YEARS OF LOUD'}
   ]
   const { user } = useAuthContext();
 
@@ -53,10 +54,10 @@ const menuClose = useCallback(() => {
                 <li><h1 className={styles.logo}><a href='/'><img src='/images/marshall_logo_white.svg' alt="마샬"/></a></h1></li>
                 {
               user ?
-                <li onClick={logout}><BsFillPersonFill/>{user.displayName}
+                <li onClick={logout}><GoPersonFill/>
               </li>
               :
-                <li onClick={login}><BsFillPersonFill/>
+                <li onClick={login}><GoPerson/>
                 </li>
             }
           </ul>

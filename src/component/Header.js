@@ -4,7 +4,8 @@ import styles from './styles/header.module.css';
 import { BiSearch } from 'react-icons/bi';
 import { BiHelpCircle } from 'react-icons/bi';
 import { FaShoppingCart } from 'react-icons/fa'
-import { BsFillPersonFill } from 'react-icons/bs'
+import { GoPerson } from 'react-icons/go'
+import { GoPersonFill } from 'react-icons/go'
 import { RiArrowDownSLine } from 'react-icons/ri'
 import { useAuthContext} from '../context/AuthContext'
 import { login, logout, onUserStateChange } from '../api/firebase'
@@ -34,10 +35,10 @@ export default function Header() {
             <li><FaShoppingCart/></li>
             {
               user ?
-                <li onClick={logout}><BsFillPersonFill/>{user.displayName}
+                <li onClick={logout}><GoPersonFill/>
               </li>
               :
-                <li onClick={login}><BsFillPersonFill/>
+                <li onClick={login}><GoPerson/>
                 </li>
             }
             <li>USA/EN<i><RiArrowDownSLine/></i></li>

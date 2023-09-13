@@ -68,12 +68,14 @@ ul#mobilemenu_list{
     width:100%; 
 }
 ul#mobilemenu_list>li{
-    color: rgb(210, 210, 210);
     width: 80%;
     font-size:18px;
     padding:10% 5%;
     border-bottom:1px solid rgb(74, 74, 74);
 }       
+ul#mobilemenu_list li a{
+    color: rgb(210, 210, 210);
+}
 
 div#mobile_grayLayer{
     width:100%; 

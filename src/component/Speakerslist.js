@@ -61,7 +61,6 @@ export default function Speakerslist() {
     
 
 
-    {/* 변경 시작 */}
 
       <ul className={styles.speakers_product_list}>
       {
@@ -100,7 +99,6 @@ export default function Speakerslist() {
       }
       </ul>
 
-      {/* 변경 끝 */}
 
 {/* 
       <ul className={styles.speakers_product_home_list}>
